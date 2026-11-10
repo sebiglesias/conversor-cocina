@@ -1,0 +1,16 @@
+{
+  "name": "Conversor de Medidas de Cocina y Repostería",
+  "short_name": "Conversor Cocina",
+  "description": "Convertí tazas a gramos, cucharadas a mililitros, levadura fresca a seca y temperaturas de horno.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121214",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

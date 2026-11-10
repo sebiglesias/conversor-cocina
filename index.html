@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Google tag (gtag.js) GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2BNDBQP0W7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2BNDBQP0W7');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Cocina: Tazas a Gramos, Cucharadas y Repostería</title>
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#d97706">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <meta name="description" content="Convertí tazas a gramos, cucharadas a mililitros, levadura fresca a seca y temperaturas de horno. Tabla de equivalencias para harina 0000, azúcar, manteca, cacao y aceite.">
+  <meta name="keywords" content="tazas a gramos, conversor cocina, cuanta harina es una taza en gramos, tazas a gramos azucar, levadura fresca a seca, cucharadas a gramos, equivalencias reposteria argentina">
+  <link rel="canonical" href="https://sebiglesias.com.ar/conversor-cocina/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Conversor de Cocina: Tazas a Gramos, Cucharadas y Equivalencias">
+  <meta property="og:description" content="Calculá al instante cuántos gramos tiene una taza de harina, azúcar, manteca o avena, convertí levaduras y temperaturas de horno.">
+  <meta property="og:url" content="https://sebiglesias.com.ar/conversor-cocina/">
+  <meta property="og:site_name" content="Conversor de Cocina">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Conversor de Cocina: Tazas a Gramos">
+  <meta name="twitter:description" content="Convertí tazas a gramos y cucharadas al instante según el ingrediente.">
+
+  <!-- Google AdSense -->
+  <meta name="google-adsense-account" content="ca-pub-3381238987477190">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3381238987477190" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Conversor de Cocina: Tazas a Gramos y Repostería",
+        "url": "https://sebiglesias.com.ar/conversor-cocina/",
+        "description": "Calculadora de equivalencias culinarias: convierte tazas a gramos, cucharadas a mililitros, levadura fresca a seca y grados de horno.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuántos gramos es una taza de harina?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Una taza estándar (240 ml) de harina de trigo común (0000 o leudante) al ras equivale a aproximadamente 120 gramos. Si la harina está compactada puede pesar hasta 130 gramos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuántos gramos es una taza de azúcar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Una taza de azúcar común blanco refinado equivale a 200 gramos. Si es azúcar impalpable o glas pesa 120 gramos, y si es azúcar mascabo o rubio pesa unos 180 gramos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la equivalencia entre levadura fresca y levadura seca?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La proporción estándar es 3 a 1. Cada 30 gramos de levadura fresca en bloque (cubito) equivalen a 10 gramos de levadura seca en polvo (o 1 sobre común)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿A cuántos grados centígrados equivale un horno medio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un horno medio o moderado para bizcochuelos, tortas y galletitas equivale a 180°C (350°F o Gas Mark 4)."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="backlink-bar">
+      <a href="https://sebiglesias.com.ar" class="backlink">← sebiglesias.com.ar</a>
+    </div>
+
+    <header>
+      <span class="badge">🍰 Cocina &amp; Repostería</span>
+      <h1>Conversor de Cocina: Tazas a Gramos</h1>
+      <p class="subtitle">Convertí tazas a gramos, cucharadas a gramos, levadura fresca a seca y temperaturas de horno al instante según la densidad real de cada ingrediente.</p>
+    </header>
+
+    <!-- Presets Section -->
+    <div class="presets-section">
+      <span class="presets-label">⚡ Equivalencias Frecuentes:</span>
+      <button type="button" class="preset-chip" onclick="applyPreset('harina_0000', 'cups_to_grams', 1)">1 Taza Harina (120g)</button>
+      <button type="button" class="preset-chip" onclick="applyPreset('azucar_comun', 'cups_to_grams', 1)">1 Taza Azúcar (200g)</button>
+      <button type="button" class="preset-chip" onclick="applyPreset('manteca', 'grams_to_cups', 100)">100g Manteca (~0.44 tazas)</button>
+      <button type="button" class="preset-chip" onclick="applyPreset('aceite', 'cups_to_grams', 1)">1 Taza Aceite (220g)</button>
+      <button type="button" class="preset-chip" onclick="applyPreset('avena', 'cups_to_grams', 1)">1 Taza Avena (90g)</button>
+      <button type="button" class="preset-chip" onclick="applyPreset('cacao_amargo', 'cups_to_grams', 0.5)">½ Taza Cacao (50g)</button>
+    </div>
+
+    <!-- Main Converter Card -->
+    <div class="card">
+      <h2>1. Conversor Interactivo por Ingrediente</h2>
+      <p class="card-desc">El peso de una taza varía enormemente según el ingrediente: 1 taza de harina pesa 120g, pero 1 taza de azúcar pesa 200g.</p>
+
+      <!-- Direction Switcher -->
+      <div class="direction-toggle">
+        <button type="button" class="toggle-btn active" id="btnModeCups">Tazas / Cucharas &rarr; Gramos</button>
+        <button type="button" class="toggle-btn" id="btnModeGrams">Gramos &rarr; Tazas / Cucharas</button>
+      </div>
+
+      <div class="grid-form">
+        <div class="form-group" style="grid-column: span 2;">
+          <label for="ingredientSelect">Ingrediente a Convertir</label>
+          <select id="ingredientSelect"></select>
+        </div>
+
+        <div class="form-group">
+          <label for="amountInput" id="inputValLabel">Cantidad en Tazas</label>
+          <input type="number" id="amountInput" value="1" min="0.05" step="0.25">
+        </div>
+      </div>
+
+      <!-- Result Highlight -->
+      <div class="result-box">
+        <div class="result-main" id="resMain">120 g</div>
+        <div class="result-secondary" id="resSecondary">
+          <strong>1 taza</strong> de <strong>Harina 0000</strong> equivale a aproximadamente <strong>120 gramos</strong>.
+        </div>
+
+        <!-- Equivalent Units Breakdown -->
+        <div class="equiv-grid">
+          <div class="equiv-item">
+            <div class="equiv-label">Tazas (240ml)</div>
+            <div class="equiv-val" id="eqCups">1 taza</div>
+          </div>
+          <div class="equiv-item">
+            <div class="equiv-label">Gramos</div>
+            <div class="equiv-val" id="eqGrams">120 g</div>
+          </div>
+          <div class="equiv-item">
+            <div class="equiv-label">Cucharadas (15ml)</div>
+            <div class="equiv-val" id="eqTbsp">~16 cdas</div>
+          </div>
+          <div class="equiv-item">
+            <div class="equiv-label">Cucharaditas (5ml)</div>
+            <div class="equiv-val" id="eqTsp">~48 cdtas</div>
+          </div>
+          <div class="equiv-item">
+            <div class="equiv-label">Onzas (oz)</div>
+            <div class="equiv-val" id="eqOz">4.2 oz</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.6rem; margin-top: 1rem;">
+        <button type="button" class="btn-action" id="btnCopy">📋 Copiar Equivalencia</button>
+        <button type="button" class="btn-action" id="btnWa" style="background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.4); color: #10b981;">💬 Compartir por WhatsApp</button>
+      </div>
+    </div>
+
+    <!-- Secondary Utilities: Levadura & Horno -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin-bottom: 1.5rem;">
+      <!-- Levadura Card -->
+      <div class="card" style="margin-bottom: 0;">
+        <h2>🥖 Conversor de Levadura</h2>
+        <p class="card-desc">Proporción 3 a 1 (30g fresca = 10g seca / 1 sobre):</p>
+        
+        <div class="grid-form" style="grid-template-columns: 1fr 1fr;">
+          <div class="form-group">
+            <label for="yeastFreshInput">Fresca (Cubo)</label>
+            <input type="number" id="yeastFreshInput" value="30" min="0" step="5">
+            <span style="font-size:0.75rem;color:var(--text-dim)">gramos</span>
+          </div>
+          <div class="form-group">
+            <label for="yeastDryInput">Seca (Polvo)</label>
+            <input type="number" id="yeastDryInput" value="10" min="0" step="1">
+            <span style="font-size:0.75rem;color:var(--text-dim)">gramos</span>
+          </div>
+        </div>
+        <p style="font-size:0.8rem;color:var(--text-muted);margin-top:0.6rem;">💡 1 sobre de levadura seca (10g) rinde igual que 1 cubito de levadura fresca (30g) para 500g a 1kg de harina.</p>
+      </div>
+
+      <!-- Horno Card -->
+      <div class="card" style="margin-bottom: 0;">
+        <h2>🌡️ Temperatura de Horno</h2>
+        <p class="card-desc">Conversor de grados centígrados a fahrenheit:</p>
+        
+        <div class="grid-form" style="grid-template-columns: 1fr 1fr;">
+          <div class="form-group">
+            <label for="ovenCInput">Celsius (°C)</label>
+            <input type="number" id="ovenCInput" value="180" min="50" max="300" step="5">
+          </div>
+          <div class="form-group">
+            <label for="ovenFInput">Fahrenheit (°F)</label>
+            <input type="number" id="ovenFInput" value="356" min="100" max="600" step="5">
+          </div>
+        </div>
+        <div id="ovenTermText" style="font-size:0.82rem;font-weight:700;color:var(--accent);margin-top:0.4rem;">
+          🔥 Horno medio / Moderado (tortas, galletitas, bizcochuelos)
+        </div>
+      </div>
+    </div>
+
+    <!-- AdSense Slot -->
+    <div class="ad-slot-container" style="margin: 24px auto; padding: 16px; max-width: 728px; background: rgba(125,125,125,0.05); border: 1px dashed rgba(125,125,125,0.2); border-radius: 8px; text-align: center; min-height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <div style="font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Publicidad</div>
+      <ins class="adsbygoogle"
+           style="display:block; width: 100%;"
+           data-ad-client="ca-pub-3381238987477190"
+           data-ad-slot="9270280155"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- Cheat Sheet Reference Table -->
+    <div class="card">
+      <h2>Tabla Maestra de Equivalencias de Cocina (1 Taza en Gramos)</h2>
+      <p class="card-desc">Valores estándar para 1 taza medidora internacional de 240 ml al ras:</p>
+      
+      <div class="table-wrap">
+        <table class="ref-table">
+          <thead>
+            <tr>
+              <th>Ingrediente</th>
+              <th>1 Taza</th>
+              <th>½ Taza</th>
+              <th>⅓ Taza</th>
+              <th>¼ Taza</th>
+              <th>1 Cucharada (cda)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Harina 0000 / Repostería</strong></td>
+              <td style="color:var(--accent);font-weight:700">120 g</td>
+              <td>60 g</td>
+              <td>40 g</td>
+              <td>30 g</td>
+              <td>7.5 g</td>
+            </tr>
+            <tr>
+              <td><strong>Harina Leudante / 000</strong></td>
+              <td style="color:var(--accent);font-weight:700">125 &ndash; 130 g</td>
+              <td>65 g</td>
+              <td>43 g</td>
+              <td>32 g</td>
+              <td>8 g</td>
+            </tr>
+            <tr>
+              <td><strong>Azúcar Blanco Común</strong></td>
+              <td style="color:var(--accent);font-weight:700">200 g</td>
+              <td>100 g</td>
+              <td>67 g</td>
+              <td>50 g</td>
+              <td>12.5 g</td>
+            </tr>
+            <tr>
+              <td><strong>Azúcar Impalpable / Glas</strong></td>
+              <td style="color:var(--accent);font-weight:700">120 g</td>
+              <td>60 g</td>
+              <td>40 g</td>
+              <td>30 g</td>
+              <td>7.5 g</td>
+            </tr>
+            <tr>
+              <td><strong>Azúcar Mascabo / Rubio</strong></td>
+              <td style="color:var(--accent);font-weight:700">180 g</td>
+              <td>90 g</td>
+              <td>60 g</td>
+              <td>45 g</td>
+              <td>11 g</td>
+            </tr>
+            <tr>
+              <td><strong>Manteca / Mantequilla</strong></td>
+              <td style="color:var(--accent);font-weight:700">225 g</td>
+              <td>112 g</td>
+              <td>75 g</td>
+              <td>56 g</td>
+              <td>14 g</td>
+            </tr>
+            <tr>
+              <td><strong>Aceite Vegetal / Girasol</strong></td>
+              <td style="color:var(--accent);font-weight:700">220 g (240 ml)</td>
+              <td>110 g</td>
+              <td>73 g</td>
+              <td>55 g</td>
+              <td>14 g</td>
+            </tr>
+            <tr>
+              <td><strong>Cacao Amargo en Polvo</strong></td>
+              <td style="color:var(--accent);font-weight:700">100 g</td>
+              <td>50 g</td>
+              <td>33 g</td>
+              <td>25 g</td>
+              <td>6.2 g</td>
+            </tr>
+            <tr>
+              <td><strong>Almidón de Maíz (Maicena)</strong></td>
+              <td style="color:var(--accent);font-weight:700">110 g</td>
+              <td>55 g</td>
+              <td>37 g</td>
+              <td>28 g</td>
+              <td>7 g</td>
+            </tr>
+            <tr>
+              <td><strong>Dulce de Leche / Miel</strong></td>
+              <td style="color:var(--accent);font-weight:700">300 &ndash; 340 g</td>
+              <td>160 g</td>
+              <td>105 g</td>
+              <td>80 g</td>
+              <td>20 g</td>
+            </tr>
+            <tr>
+              <td><strong>Avena Arrollada en Copos</strong></td>
+              <td style="color:var(--accent);font-weight:700">90 g</td>
+              <td>45 g</td>
+              <td>30 g</td>
+              <td>22 g</td>
+              <td>5.5 g</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="card">
+      <h2>Preguntas Frecuentes sobre Medidas de Cocina</h2>
+      
+      <details class="faq-item" open>
+        <summary>¿Cuántos mililitros tiene una taza medidora en Argentina y Latinoamérica?</summary>
+        <p>Una taza de medir estándar (*cup*) equivale a <strong>240 mililitros</strong> (en el sistema métrico internacional oficial a veces se toma 250 ml, pero todas las recetas de repostería norteamericanas y europeas usan la taza estándar de 240 ml).</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>¿Cuántos gramos son una cucharada y una cucharadita?</summary>
+        <p>Una cucharada sopera (*tablespoon* o cda) tiene un volumen de <strong>15 ml</strong> y una cucharadita de té (*teaspoon* o cdta) tiene <strong>5 ml</strong>. En peso, 1 cucharada de azúcar pesa 12.5g, 1 de harina pesa 7.5g y 1 de manteca derretida pesa unos 14g.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>¿Por qué no conviene medir la harina por volumen?</summary>
+        <p>La harina cambia mucho de volumen si está tamizada o si lleva tiempo en el paquete. Una taza de harina tamizada puede pesar solo 105g, mientras que si la apretás contra el fondo del pote puede pesar 140g (+30% de diferencia), lo que reseca bizcochuelos y panes. Por eso los pasteleros siempre recomiendan pesar en gramos.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>¿Cómo reemplazar levadura fresca por seca si no tengo balanza?</summary>
+        <p>Si la receta pide 1 cubito entero de levadura fresca (50 gramos), usá 1 sobre y medio de levadura seca (16 a 17 gramos). Si pide 25 gramos de fresca, usá medio sobre de seca (8 gramos o una cucharadita colmada).</p>
+      </details>
+    </div>
+
+    <!-- Amazon Associates Recommended Baking Tools -->
+    <div class="affiliate-box">
+      <h3 style="font-size: 1rem; color: var(--accent); font-family: var(--font-heading); margin-bottom: 0.25rem;">⚖️ Herramientas Recomendadas de Repostería &amp; Balanzas</h3>
+      <p style="font-size: 0.8rem; color: var(--text-muted);">Accesorios indispensables para no fallar en repostería y panadería:</p>
+      <div class="affiliate-links">
+        <a href="https://www.amazon.com/s?k=digital+kitchen+food+scale+grams+and+ounces&tag=sebiglesias-20" target="_blank" rel="sponsored nofollow noopener" class="affiliate-btn">
+          <div>
+            <div style="font-size:0.7rem;color:var(--accent);text-transform:uppercase;font-weight:700">★ Precisión Exacta</div>
+            <div style="font-weight:700;font-size:0.92rem;margin:0.2rem 0">Balanza Digital de Cocina de Precisión (1g a 5kg)</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Con función tara y visor iluminado para pesar harinas y masas sin ensuciar tazas.</div>
+          </div>
+          <div style="color:var(--accent);font-size:0.78rem;font-weight:700;margin-top:0.5rem">Ver modelos en Amazon &rarr;</div>
+        </a>
+
+        <a href="https://www.amazon.com/s?k=stainless+steel+measuring+cups+and+spoons+set&tag=sebiglesias-20" target="_blank" rel="sponsored nofollow noopener" class="affiliate-btn">
+          <div>
+            <div style="font-size:0.7rem;color:#10b981;text-transform:uppercase;font-weight:700">★ Kit de Medición</div>
+            <div style="font-weight:700;font-size:0.92rem;margin:0.2rem 0">Juego de Tazas y Cucharas Medidoras de Acero Inoxidable</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Marcadas en tazas, ml y cucharadas con escala grabada indeleble que no se borra.</div>
+          </div>
+          <div style="color:#10b981;font-size:0.78rem;font-weight:700;margin-top:0.5rem">Ver modelos en Amazon &rarr;</div>
+        </a>
+
+        <a href="https://www.amazon.com/s?k=oven+thermometer+stainless+steel&tag=sebiglesias-20" target="_blank" rel="sponsored nofollow noopener" class="affiliate-btn">
+          <div>
+            <div style="font-size:0.7rem;color:#f59e0b;text-transform:uppercase;font-weight:700">★ Control Térmico</div>
+            <div style="font-weight:700;font-size:0.92rem;margin:0.2rem 0">Termómetro Analógico de Horno de Acero Inoxidable</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Permite medir la temperatura real interior de tu horno a gas o eléctrico sin abrir la puerta.</div>
+          </div>
+          <div style="color:#f59e0b;font-size:0.78rem;font-weight:700;margin-top:0.5rem">Ver modelos en Amazon &rarr;</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Family Interlinking Nav (SEO Cluster) -->
+    <nav class="family-nav" aria-label="🍕 Cocina, Eventos &amp; Gastronomía">
+      <span style="display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); font-weight: 700; margin-bottom: 12px;">🍕 Cocina, Eventos &amp; Gastronomía</span>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <span class="family-pill active">🧁 Conversor de Cocina</span>
+        <a href="https://sebiglesias.com.ar/empanadin/" class="family-pill">🥟 Empanadín</a>
+        <a href="https://sebiglesias.com.ar/pizzadita/" class="family-pill">🍕 Pizzadita</a>
+        <a href="https://sebiglesias.com.ar/pizza-calculator/" class="family-pill">🇮🇹 Pizza Dough Calculator</a>
+        <a href="https://sebiglesias.com.ar/asadin/" class="family-pill">🥩 Asadín</a>
+        <a href="https://sebiglesias.com.ar/bebidas-fiesta/" class="family-pill">🍻 Bebidas Fiesta</a>
+        <a href="https://sebiglesias.com.ar/picada/" class="family-pill">🧀 Calculadora de Picada</a>
+        <a href="https://sebiglesias.com.ar/masa-madre/" class="family-pill">🥖 Masa Madre</a>
+        <a href="https://sebiglesias.com.ar/coffee-ratio/" class="family-pill">☕ Coffee Golden Ratio</a>
+      </div>
+    </nav>
+
+    <footer>
+      <p>© 2026 Sebastián Iglesias · Conversor de Medidas y Equivalencias de Cocina.</p>
+      <p style="margin-top:0.4rem;">Herramienta gratuita y abierta para pastelería y gastronomía casera.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
